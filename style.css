@@ -1,0 +1,182 @@
+body{
+    color: aliceblue;
+    background: #212121;
+}
+
+#sesion{
+    position: absolute;
+    top:200px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr ;
+    gap: 10px;
+
+
+}
+#Registrarse{
+    border: #3519af solid 10px;
+    border-radius: 220px;
+    font-size: 18px;
+    color: #ffffff;
+    width: 120px;
+    height: 55px;
+    background: #3519af;
+}
+#iniciar{
+        border: #3519af solid 5px;
+        border-radius: 220px;
+        font-size: 18px;
+        color: #3519af;
+        width: 120px;
+        height: 55px;
+        background: #212121;
+}
+#Registrarse:hover{
+    opacity: 80%;
+}
+#iniciar:hover{
+    opacity: 70%;
+}
+
+#modal-SignUp{
+    position: absolute;
+    top: -150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 190px;
+    opacity: 0;
+    border-radius: 50px;
+    background: #2e2e2e;
+    margin-top: 100px;
+        transition: top 0ms ease-in-out 200ms,
+                opacity 200ms ease-in-out 0ms;
+}
+
+#modal-SignUp.active{
+    top: 130px;
+    opacity: 1;
+    transition: top 0ms ease-in-out 0ms,
+            opacity 200ms ease-in-out 200ms;
+}
+
+#signup-form{
+    margin-top: 15px;
+}
+
+#signup-form > * {
+    margin-left: 50px;
+    font-size: 17px;
+    color: #3f729b;
+}
+
+#signup-form > input {
+    color: #ffffff;
+    width: 250px;
+    border: #11171a solid 2px;
+    border-radius: 10px;
+    background: #2e2e2e;
+    display: block;
+    margin-bottom: 17px;
+}
+
+#btn-register {
+        text-align: center;
+        border: #3519af solid 10px;
+        border-radius: 220px;
+        font-size: 15px;
+        color: #ffffff;
+        width: 100px;
+        height: 40px;
+        background: #3519af;
+   }
+
+
+#modal-login{
+    position: absolute;
+    top: -150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    width: 400px;
+    height: 190px;
+    border-radius: 50px;
+    background: #2e2e2e;
+    margin-top: 100px;
+    transition: top 0ms ease-in-out 200ms,
+                opacity 200ms ease-in-out 0ms;
+
+}
+#modal-login.active{
+    top: 130px;
+    opacity: 1;
+    transition: top 0ms ease-in-out 0ms,
+                    opacity 200ms ease-in-out 200ms;
+}
+#login-form{
+    margin-top: 15px;
+}
+
+#login-form > * {
+    margin-left: 50px;
+    font-size: 17px;
+    color: #3f729b;
+}
+
+
+   #login-form{
+    margin-top: 15px;
+}
+
+#login-form > * {
+    margin-left: 50px;
+    font-size: 17px;
+    color: #3f729b;
+}
+
+#login-form > input {
+    color: #ffffff;
+    width: 250px;
+    border: #11171a solid 2px;
+    border-radius: 10px;
+    background: #2e2e2e;
+    display: block;
+    margin-bottom: 17px;
+}
+
+#btn-login {
+    border: #3519af solid 5px;
+    border-radius: 220px;
+    font-size: 15px;
+    color: #3519af;
+    width: 120px;
+    height: 40px;
+    background: #2e2e2e;
+   }
+#close-SignUp{
+    position: absolute;
+    border: #0f34da solid 5px;
+    border-radius: 40%;
+    font-size: 13px;
+    color: #2f00ff;
+    width: 30px;
+    height: 30px;
+    background: #2e2e2e;
+    top: 10px;
+    left: 300px;
+} 
+#close-login{
+    position: absolute;
+    border: #0f34da solid 5px;
+    border-radius: 40%;
+    font-size: 13px;
+    color: #2f00ff;
+    width: 30px;
+    height: 30px;
+    background: #2e2e2e;
+    top: 10px;
+    left: 300px;
+}
