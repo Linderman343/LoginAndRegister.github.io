@@ -3,7 +3,16 @@ body{
     background: #212121;
 }
 
-#sesion{
+header{
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    background: #3519af;
+    width: 100%;
+}
+.sesion{
     position: absolute;
     top:200px;
     left: 50%;
@@ -15,6 +24,10 @@ body{
     gap: 10px;
 
 
+}
+.sesion.none{
+    top: -150%;
+    transition: top 400ms ease-in-out 0ms;
 }
 #Registrarse{
     border: #3519af solid 10px;
