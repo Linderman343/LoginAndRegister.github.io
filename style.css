@@ -235,10 +235,6 @@ header{
                 opacity 200ms ease-in-out 200ms;
 }
 
-#login-form{
-Margin-top:100px;
-}
-
 #modal-login.active{
     top: 130px;
     opacity: 1;
